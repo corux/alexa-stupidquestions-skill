@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Du dachtest es gibt keine \"Dummen Fragen\"? Dieser Skill kennt eine Menge dummer Fragen!",
+          "examplePhrases": [
+            "Alexa, öffne dumme Fragen"
+          ],
+          "name": "Dumme Fragen",
+          "description": "Du dachtest es gibt keine \"Dummen Fragen\"? Mit diesem Skill wirst du eine Menge dummer Fragen kennen lernen. Sage einfach \"Alexa, öffne dumme Fragen\" und lass dich überraschen!\nDie Sammlung der Fragen wird ständig erweitert. Du wirst neue Fragen zuerst hören, bevor andere Fragen wiederholt werden.",
+          "keywords": [
+            "Dumm",
+            "Sinnlos",
+            "Fragen",
+            "Witze"
+          ],
+          "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-stupidquestions-skill/icon108.png",
+          "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-stupidquestions-skill/icon512.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special testing required.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "dist"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
