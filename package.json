@@ -30,7 +30,7 @@
     "tslint": "5.16.0",
     "typescript": "3.4.5",
     "underscore": "1.9.1",
-    "webpack": "4.30.0",
+    "webpack": "4.31.0",
     "webpack-command": "0.4.2",
     "weighted-random-selection": "1.0.0"
   }
