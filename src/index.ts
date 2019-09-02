@@ -1,3 +1,4 @@
+import { LogInterceptor, SessionEndedHandler } from "@corux/ask-extensions";
 import { SkillBuilders } from "ask-sdk-core";
 import { DynamoDbPersistenceAdapter } from "ask-sdk-dynamodb-persistence-adapter";
 import {
@@ -5,9 +6,7 @@ import {
     AmazonHelpIntentHandler,
     CustomErrorHandler,
     LaunchRequestHandler,
-    SessionEndedHandler,
 } from "./handlers";
-import { LogInterceptor } from "./interceptors";
 
 const dynamodbAdapter = new DynamoDbPersistenceAdapter({
     createTable: true,

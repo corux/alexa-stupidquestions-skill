@@ -1,14 +1,9 @@
-import { HandlerInput, RequestHandler } from "ask-sdk-core";
+import { BaseRequestHandler, IExtendedHandlerInput, Intents } from "@corux/ask-extensions";
 import { Response } from "ask-sdk-model";
 
-export class AmazonCancelAndStopIntentHandler implements RequestHandler {
-  public canHandle(handlerInput: HandlerInput): boolean {
-    const request = handlerInput.requestEnvelope.request;
-    return request.type === "IntentRequest" &&
-      (request.intent.name === "AMAZON.CancelIntent" || request.intent.name === "AMAZON.StopIntent");
-  }
-
-  public handle(handlerInput: HandlerInput): Response {
+@Intents("AMAZON.CancelIntent", "AMAZON.StopIntent")
+export class AmazonCancelAndStopIntentHandler extends BaseRequestHandler {
+  public handle(handlerInput: IExtendedHandlerInput): Response {
     return handlerInput.responseBuilder
       .withShouldEndSession(true)
       .getResponse();
