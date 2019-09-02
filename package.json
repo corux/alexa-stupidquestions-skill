@@ -28,9 +28,9 @@
     "ts-loader": "6.0.4",
     "ts-node": "8.3.0",
     "tslint": "5.19.0",
-    "typescript": "3.5.3",
+    "typescript": "3.6.2",
     "underscore": "1.9.1",
-    "webpack": "4.39.2",
+    "webpack": "4.39.3",
     "webpack-command": "0.5.0",
     "weighted-random-selection": "1.0.0"
   }
