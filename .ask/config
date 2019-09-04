@@ -33,7 +33,7 @@
             "codeUri": "dist",
             "functionName": "alexa-stupidquestions-skill-production",
             "handler": "index.handler",
-            "revisionId": "7f949429-84e6-4438-930c-89a90aa45223",
+            "revisionId": "4b684054-5a30-4095-b2b0-aeab29f347a2",
             "runtime": "nodejs8.10"
           }
         ]
