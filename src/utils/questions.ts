@@ -1,4 +1,4 @@
-import * as WeightedRandomSelection from "weighted-random-selection";
+import * as WeightedRandomSelection from "@silvermine/weighted-random-selection";
 import * as questionsString from "./questions.txt";
 
 export function getRandomQuestion(history: History): string {
