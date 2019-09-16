@@ -18,7 +18,7 @@
     "deploy:assets": "aws s3 sync ./assets s3://alexa-stupidquestions-skill/ --acl public-read"
   },
   "devDependencies": {
-    "@corux/ask-extensions": "1.0.0",
+    "@corux/ask-extensions": "2.0.0",
     "@silvermine/weighted-random-selection": "1.1.0",
     "@types/node": "10.14.1",
     "ask-cli": "1.7.14",
